@@ -1,0 +1,386 @@
+/************************************
+ Theme: Leone - Derived From: Portland  
+ ************************************/
+ #bd{min-height:36em;_height:36em}
+ #hd{position:relative;margin-bottom:15px;overflow:hidden;zoom:1}
+ #hContent{overflow:hidden;width:498px;padding-right:2px;position:relative;left:50%;margin:140px 0 20px -135px}
+ #hMisc{position:absolute;bottom:0;left:50%;margin-left:-370px;_margin-bottom:-1px;width:180px;height:156px}
+ #bd{float:left;width:500px;position:relative;left:50%;margin-left:-135px}
+ #navigation{clear:left;float:left;width:220px;position:relative;left:50%;margin-left:-380px;margin-bottom:20px;display:inline}
+ ul#mainNav{padding:13px 10px 15px 10px}
+ #mainNav li a{_zoom:1;display:block;padding:5px 3px 5px 10px}
+ #pageName{margin-right:2px}
+ #body h3{margin-bottom:5px}
+ #body h4{margin-bottom:2px}
+ #zB #mapZone{width:498px;height:205px;border-top:1px solid #555;border-left:1px solid #555;border-right:1px solid #fff;border-bottom:1px solid #fff;_border:0}
+ #zB #drivingDirectionsLnk{top:210px}
+ * html #zB #mapContainer{border-top:1px solid #555;border-left:1px solid #555;border-right:1px solid #fff;border-bottom:1px solid #fff}			
+ #zC #formZone{width:215px}
+ #ft{padding:25px 0 20px 0;width:765px;margin:0 auto 15px auto}
+ #fContent{float:left;width:500px;position:relative;left:50%;margin-left:-135px;display:inline}
+ #fMisc{float:left;width:200px;margin-left:-725px;left:50%;display:inline}
+ #body{min-width:740px;zoom:1;width:expression(documentElement.clientWidth < 740 ? "740px" : "auto" )}
+ #hMisc div{display:none !important}
+ .modWrap{padding-right:2px;_padding-right:0;}
+ #fBadges {margin-left:22px;width:728px;}
+ #body .sub_static #mainNav .subNav a {padding-left:20px;}
+ 
+ 
+ /************************************
+ Theme: Leone - Derived From: Portland  
+ ************************************/
+ 
+ 	
+ 	
+ 
+ 		#body {
+ 			font-size: 12px;
+ 			font-family: Arial, Verdana, sans-serif;
+ 		}
+ 
+ 		
+ 		p {
+ 		}		
+ 
+ 		
+ 		hr {
+ 		}		
+ 
+ 		#body h1,
+ 		#body h2,
+ 		#body h3,
+ 		#body h4,
+ 		#body h5,
+ 		#body h6 {
+ 			font-family: Georgia, Arial, sans-serif;
+ 		}
+ 
+ 		
+ 		#body h1 {
+ 			font-size: 40px;
+ 		}
+ 		
+ 		
+ 		#body h2 {
+ 			font-family: Verdana, Arial, sans-serif;
+ 			font-size: 28px;
+ 		}
+ 
+ 		
+ 		#body h3 {
+ 			font-size: 19px;
+ 		}
+ 
+ 		
+ 		#body h4 {
+ 			font-family: Verdana, Arial, sans-serif;
+ 			font-weight: bold;
+ 		}
+ 
+ 	
+ 		#hd {
+ 		}
+ 		
+ 
+ 
+ 
+ 		#fContent {
+ 			font-size: 9px;
+ 		}
+ 
+ 
+ 		
+ 		ul#mainNav li a:link,
+ 		ul#mainNav li a:visited {
+ 			text-transform: uppercase;
+ 		}
+ 
+ 
+ 		#body  {
+ 			background-repeat: repeat-x;
+ 			background-position: 0 -20px;
+ 		}
+ 
+ 		#hd {
+ 			background-repeat: repeat-x;			
+ 			background-position: 0 100%;
+ 		}
+ 		
+ 		#hMisc {
+ 			background-repeat: no-repeat;
+ 		}
+ 
+ 		ul#mainNav {
+ 			background-repeat: no-repeat;	
+ 		}
+ 
+ 		#doc {
+ 		}
+ 
+ 		#ft {
+ 			background-repeat: no-repeat;
+ 		}
+ 
+ 
+ 		ul#mainNav {
+ 			border-bottom-width: 1px;
+ 			border-bottom-style: solid;
+ 		}
+ 
+ 		ul#mainNav li a {
+ 			border-bottom-width: 1px;
+ 			border-bottom-style: solid;
+ 		}
+ 
+ 		ul#mainNav li a:hover,
+ 		ul#mainNav li a:active,
+ 		ul#mainNav li a:focus,
+ 		ul#mainNav li.active a:link,
+ 		ul#mainNav li.active a:visited {
+ 			border-bottom-width: 1px;
+ 			border-bottom-style: solid;
+ 		}
+ 
+ 		#ft {
+ 			border-bottom-width:1px;
+ 			border-bottom-style: solid;
+ 		}
+ 
+ 
+ 		/* 
+ 		 * direction and color of the arrow (assuming arrow sprite)
+ 		 */
+ 		#body .toggle img {
+ 			background-position:-384px -24px;
+ 		}
+ 
+ 		/* 
+ 		 * links for BOTH static and dynamic sub menus 
+ 		 * use this rule to group declarations common to the two different types of menus (static/dynamic)
+ 		 */
+ 		#body #mainNav .subNav a {
+ 			font-size:12px;
+ 			font-family:arial;
+ 			font-weight:normal;
+ 		}
+ 		
+ 		/* 
+ 		 * :hover and selected (active) links for BOTH static and dynamic sub menus
+ 		 * they are both styled the same 
+ 		 */
+ 		/* 
+ 		 * sub menus (fly-out) 
+ 		 */
+ 		#body .sub_dynamic #mainNav .subNav {
+ 			border-style:solid;
+ 			border-width:1px;
+ 		}
+ 
+ 
+ 
+ 
+ /****************************************
+ Theme: Leone - Derived From: Portland
+ Layout: Layout 1 - Derived from: Layout 1
+ ****************************************/
+ .lo_auto1 #pageName {display:none}
+ .lo_auto1 #zB #mapZone {width:340px;margin-left:20px}
+ .lo_auto1 #zC #formZone {width:270px;margin-left:20px}
+ 
+ 
+ /****************************************
+ Theme: Leone - Derived From: Portland
+ Layout: Layout 1 - Derived from: Layout 1
+ ****************************************/
+ 
+ 
+ /**************************************************************
+ Theme: Leone - Derived From: Portland
+ Layout: Layout 1 with Title - Derived from: Layout 1 with Title
+ **************************************************************/
+ .lo_generic_auto1 #zB #mapZone {width:340px;margin-left:20px}
+ .lo_generic_auto1 #zC #formZone {width:270px;margin-left:20px}
+ 
+ 
+ /**************************************************************
+ Theme: Leone - Derived From: Portland
+ Layout: Layout 1 with Title - Derived from: Layout 1 with Title
+ **************************************************************/
+ 
+ 
+ /***************************************************
+ Theme: Leone - Derived From: Portland
+ Layout: Layout 2 - Derived from: Layout 2 with Title
+ ***************************************************/
+ .lo_auto4 #pageName {display:none}
+ 
+ 
+ /***************************************************
+ Theme: Leone - Derived From: Portland
+ Layout: Layout 2 - Derived from: Layout 2 with Title
+ ***************************************************/
+ 
+ 
+ /**************************************************************
+ Theme: Leone - Derived From: Portland
+ Layout: Layout 2 with Title - Derived from: Layout 2 with Title
+ **************************************************************/
+ .lo_auto4 #zB, .lo_generic_auto4 #zB {float:left;width:47%}
+ .lo_auto4 #zC, .lo_generic_auto4 #zC {float:right;width:47%}
+ .lo_auto4 #zB #mapZone, .lo_generic_auto4 #zB #mapZone {width:240px;height:250px}
+ .lo_auto4 #zB #drivingDirectionsLnk, .lo_generic_auto4 #zB #drivingDirectionsLnk {top:255px}
+ 
+ 
+ /**************************************************************
+ Theme: Leone - Derived From: Portland
+ Layout: Layout 2 with Title - Derived from: Layout 2 with Title
+ **************************************************************/
+ 
+ 
+ /**************************************************************
+ Theme: Leone - Derived From: Portland
+ Layout: Layout 3 with Title - Derived from: Layout 3 with Title
+ **************************************************************/
+ .lo_layout3wt #zA {float:left;width:47%}
+ .lo_layout3wt #zB {float:right;width:47%}
+ .lo_layout3wt #zC {clear:both;}
+ .lo_layout3wt #zB #mapZone {width:230px;height:240px}
+ .lo_layout3wt #zB #drivingDirectionsLnk {top:245px}
+ 
+ 
+ /**************************************************************
+ Theme: Leone - Derived From: Portland
+ Layout: Layout 3 with Title - Derived from: Layout 3 with Title
+ **************************************************************/
+ 
+ #body {
+ 	color: #fbfbfb;
+ }
+ 
+ #body h1,
+ #body h2,
+ #body h3,
+ #body h4,
+ #body h5,
+ #body h6 {
+ 	color: #ffffff;
+ }
+ 
+ #body h1 {
+ 	color: #616b77;
+ }
+ 		
+ #bd h1 {
+ 	color: #ececec;
+ }
+ 
+ #body h2 {
+ 	color: #89c929;
+ }
+ 
+ #ft {
+ 	color: #ffffff;
+ }
+ 
+ #fMisc {
+ 	color: #c4df9b;
+ }
+ 
+ #body a:link,
+ #body a:visited {
+ 	color: #e7fc47;
+ }
+ 		
+ #body a:hover,
+ #body a:focus,
+ #body a:active {
+ 	text-decoration: none;
+ }
+ 
+ #hd a:link,
+ #hd a:visited {
+ 	color: #64981a;
+ }
+ 
+ ul#mainNav li a:link,
+ ul#mainNav li a:visited {
+ 	color: #fff;
+ }
+ 
+ #ft {
+ 	color: #c4df9b;
+ }
+ 
+ body  {
+ 	background-color: #8cbe29;
+ }
+ 		
+ #body  {
+ 	background-image: url(https://turbifycdn.com/lm/themes/yhoo/ga/leone/grass/palette1/4.0.7/en-us/images/poundbody.jpg);
+ }
+ 
+ #hd {
+ 	background-color: #cdd1da;
+ 	background-image: url(https://turbifycdn.com/lm/themes/yhoo/ga/leone/grass/palette1/4.0.7/en-us/images/hd.jpg);
+ }
+ 		
+ #hMisc {
+ 	background-image: url(https://turbifycdn.com/lm/themes/yhoo/ga/leone/grass/palette1/4.0.7/en-us/images/hmisc.jpg);
+ }
+ 
+ ul#mainNav {
+ 	background-image: url(https://turbifycdn.com/lm/themes/yhoo/ga/leone/grass/palette1/4.0.7/en-us/images/mainnav.png);
+ 	background-color:#64981a;
+ }
+ 
+ ul#mainNav li a {
+ 	background-color: #7aae22;
+ }
+ 
+ ul#mainNav li a:hover,
+ ul#mainNav li a:active,
+ ul#mainNav li a:focus,
+ ul#mainNav li.active a:link,
+ ul#mainNav li.active a:visited {
+ 	background-color: #8bbe28;
+ }
+ 
+ #ft {
+ 	background-image: url(https://turbifycdn.com/lm/themes/yhoo/ga/leone/grass/palette1/4.0.7/en-us/images/ft.png);
+ 	background-color:#7fb129;
+ }
+ 
+ ul#mainNav {
+ 	border-bottom-color: #578c18;
+ }
+ 
+ ul#mainNav li a {
+ 	border-bottom-color: #6ea31e;
+ }
+ 
+ ul#mainNav li a:hover,
+ ul#mainNav li a:active,
+ ul#mainNav li a:focus,
+ ul#mainNav li.active a:link,
+ ul#mainNav li.active a:visited {
+ 	border-bottom-color: #669a1c;
+ }
+ 
+ #ft {
+ 	border-bottom-color: #578c18;
+ }
+ 
+ #body #mainNav .subNav a {
+ 	background-color:#7AAE22;
+ 	color:#FFFFFF;
+ }
+ 		
+ #body #mainNav .subNav a:hover,
+ #body #mainNav .active-sub a {
+ 	background-color:#8BBE28;
+ }
+ 
+ #body .sub_dynamic #mainNav .subNav {
+ 	border-color:#5A801A;
+ }
+ 
